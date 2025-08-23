@@ -201,3 +201,64 @@ nav a:hover {
       color: #bbb;
       letter-spacing: 0.5px;
     }
+   .taskbar {
+    display: none;
+   }
+
+    @media screen and (max-width: 768px) {
+   .contain-header nav, .contain-header button{
+    display: none;
+   }
+   .contain-header {
+    width: 100%;
+    justify-content: space-between;
+   }
+   .stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 15px;
+   }
+   .taskbar {
+    display: block;
+   margin-top: 3%;
+   color: white;
+   font-size: 17px;
+   cursor: pointer;
+   }
+   .content-body {
+    padding-top: 30%;
+   }
+   .content-left {
+    font-size: 15px;
+   }
+   .cloud1 {
+    color: rgb(139, 240, 246);
+   }
+   .content-right{
+    text-align: center;
+    margin-top: 30%;
+   }
+   .content-right img {
+    width: 90%;
+   }
+   .content-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 0;
+   }
+  .button-hire {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(139, 240, 246);
+      transition: 0.4s ease;
+}
+.button-hire:hover {
+     transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(91,192,196,0.7);
+}
+
+}

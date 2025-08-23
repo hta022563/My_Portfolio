@@ -16,19 +16,20 @@
    <div id="particles-js"></div>
     <div class="contain-header">
         <h1><i class="fa-regular fa-cloud"></i> Engineer</h1>
-        <nav>
+        <nav id="menu" class="hidden">
             <a href="">Home</a>
             <a href="">About Me</a>
             <a href="">Project</a>
             <a href="">Blog</a>
         </nav>
-        <button class="Contact-button" >Contact Me <i class="fa-regular fa-circle-user"></i></button>
+        <div class="taskbar" onclick="toggleMenu()"><i class="fa-solid fa-bars" ></i></div>
+        <button class="Contact-button">Contact Me <i class="fa-regular fa-circle-user"></i></button>
     </div>
     <div class="content-body">
         <div class="content-left">
              <h2>Hello!</h2>
-             <h3>I'm <span>Vu Hao</span></h3>
-             <span class="cloud">Cloud Developer</span>
+             <h2>I'm <span>Vu Hao</span></h3>
+             <h2 class="Cloud1">Cloud Developer</h2>
              <div class="content-button">
              <button class="button-project">My Project</button>
              <button class="button-hire">Hire Me!</button>
@@ -73,5 +74,6 @@
   
    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
    <script src="/ju.js"></script>
+   <script src="index.js"></script>
 </body>
 </html>
