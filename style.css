@@ -16,11 +16,16 @@
 }
 .container-all {
     position: relative;
+    flex: 1;
 }
 body {
     padding: 0 16px;
     background-color:rgb(10, 25, 48);
    height: 100%;
+    margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
    
 }
 
@@ -118,13 +123,11 @@ nav a:hover {
 .content-left h2,h3 {
     padding: 5px;
 }
-.cloud {
-  
-  font-size: 2.5rem;
-  font-weight: bold;
+.Cloud {
+  color: rgb(162, 245, 249);
 }
 .content-button {
-    margin-left: 8%;
+    margin-left: 5%;
 }
 .content-button button{
     padding: 9px 21px;
@@ -141,6 +144,9 @@ nav a:hover {
 }
 .button-hire:hover {
   transform: scale(1.03);  
+}
+.button-project i {
+  color:  rgb(139, 240, 246);
 }
 .button-project {
     background-color: transparent;
@@ -214,9 +220,10 @@ nav a:hover {
     justify-content: space-between;
    }
    .stats-container {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    gap: 30px;
     font-size: 15px;
    }
    .taskbar {
@@ -232,7 +239,7 @@ nav a:hover {
    .content-left {
     font-size: 15px;
    }
-   .cloud1 {
+   .Cloud1 {
     color: rgb(139, 240, 246);
    }
    .content-right{
@@ -246,7 +253,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 70%;
+    width: 75%;
     margin-top: 10px;
     margin-left: 0;
    }
