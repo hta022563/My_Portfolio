@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
-    background-color: rgb(120, 119, 119);
+    background-color: rgb(10 25 48);
     background-color: transparent;
     margin: 0 -16px;
     gap: 15%;
